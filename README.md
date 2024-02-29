@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+# Memory Card Game
+A React Typescript based memory card game where players flip cards to match.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+Introduction
+Features
+Demo
+Installation
+Usage
+Contributing
+License
 
-## Available Scripts
+### Introduction
+This project is a web-based memory card game developed using React and Typescript. The game consists of a two sets of cards in each set there are six cards where player flips one card which has image of fruit and he/she tries to find the name of image from another set of cards. The game provides a timer to complete the game within a time or the game will be end with the final result. It also has a progress bar to visualize the player's progress.
 
-In the project directory, you can run:
+### Features
+Flippable cards with images on the back.
+Matching pairs of cards with fruit name and fruit image.
+Timer to complete the game.
+Progress bar to visualize game progress.
+Game-over screen displaying score of game.
 
-### `npm start`
+### Demo
+Link to live demo (https://brightchampstasktsx.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Installation
+To run this project locally, follow these steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone the repository to your local machine using git clone.
+Navigate to the project directory.
+Install dependencies using npm install.
+Start the development server using npm start.
 
-### `npm test`
+### Usage
+Once the development server is running, open your web browser and navigate to http://localhost:3000 to access the game. Follow the on-screen instructions to play the memory card game.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Fork the repository on GitHub.
+Create a new branch with a descriptive name (git checkout -b feature-name).
+Make your changes and commit them with a clear message (git commit -m 'Add feature').
+Push your changes to your fork (git push origin feature-name).
+Open a pull request on the original repository.
